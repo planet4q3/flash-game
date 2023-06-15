@@ -1,1 +1,28 @@
-clockandbals
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+ if key == "e" then
+game:GetService("ReplicatedStorage").Characters.Moonknight.Remotes.KhonshuSlam:FireServer(game:GetService("Players").LocalPlayer)
+ end
+end)
+
+
+
+
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+ if key == "r" then
+workspace.boi8manz221.SCPGuard.Shotgun:FireServer(game:GetService("Players").LocalPlayer)
+ end
+end)
+
+
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+ if key == "r" then
+game:GetService("ReplicatedStorage").Characters.Steve.Remotes.BowShoot:FireServer()
+ end
+end)
+
+
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+ if key == "t" then
+game:GetService("ReplicatedStorage").Characters["A-Train"].Remotes.BellyPunch:FireServer()
+ end
+end)
